@@ -1,0 +1,39 @@
+/*Adicionando cor ao background*/
+body{
+    background-color: whitesmoke;
+}    
+
+/*configurando a tabela*/
+.table{ /*configurações gerais da tabela*/
+    margin: 25px 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 1.5em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.70);
+}
+
+th{ /*configurações para a linha de cabeçalho da tabela*/
+    background-color: #cb0101;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+th,td{ /*configuração para alinhar os elementos da tabela*/
+    padding: 12px 15px;
+}
+
+tr{ /*configuração para adicionar uma linha ao final da tabela*/
+    border-bottom:2px solid #cb0101;
+}
+
+/*confinguração para colocar a logo no centro da tela e aumentar o tamanho dela*/
+.inffel-logo{
+    text-align: center;
+    font-size: 11em;
+}
